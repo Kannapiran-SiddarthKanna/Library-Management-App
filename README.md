@@ -2,48 +2,50 @@
 
 This project is a Java-based Library Management System, designed to help libraries manage their inventory, track item rentals, and manage user accounts. The system is built using object-oriented principles and incorporates multiple design patterns to ensure modularity, scalability, and ease of maintenance.
 
-Features
-User Management:
+**Features**
 
-Register and authenticate users.
-Manage different user roles (e.g., Admin, Librarian, Member).
-Allow users to update their personal information.
-View and manage user activity logs.
-Inventory Management:
+**User Management:**
+-  Register and authenticate users.
+-  Manage different user roles (e.g., Admin, Librarian, Member).
+-  Allow users to update their personal information.
+-  View and manage user activity logs.
 
-Add, remove, and update library items, including books, journals, and media.
-Categorize items by type, genre, and availability status.
-Maintain item details, such as title, author, publisher, and ISBN.
-Rental System:
+**Inventory Management:**
+-  Add, remove, and update library items, including books, journals, and media.
+-  Categorize items by type, genre, and availability status.
+-  Maintain item details, such as title, author, publisher, and ISBN.
 
-Manage item rentals, including checkouts and returns.
-Track overdue items and calculate late fees.
-Send reminders and notifications for due dates and overdue items.
-Search and Filter:
+**Rental System:**
+-  Manage item rentals, including checkouts and returns.
+-  Track overdue items and calculate late fees.
+-  Send reminders and notifications for due dates and overdue items.
 
-Search for items by title, author, category, or keyword.
-Apply filters to narrow down search results based on item type, availability, or other criteria.
-Sort search results by relevance, title, or publication date.
-Reservation System:
+**Search and Filter:**
+-  Search for items by title, author, category, or keyword.
+-  Apply filters to narrow down search results based on item type, availability, or other criteria.
+-  Sort search results by relevance, title, or publication date.
 
-Allow members to reserve items that are currently unavailable.
-Notify users when reserved items become available.
-Manage reservation queues for high-demand items.
-GUI Interface:
+**Reservation System:**
+-  Allow members to reserve items that are currently unavailable.
+-  Notify users when reserved items become available.
+-  Manage reservation queues for high-demand items.
 
-Intuitive and user-friendly graphical interface for easy navigation and operation.
-Support for multiple views (e.g., list view, detailed view) and responsive design.
-Interactive elements such as buttons, dropdowns, and modals for user interaction.
-Data Persistence:
+**GUI Interface:**
+  Intuitive and user-friendly graphical interface for easy navigation and operation.
+  Support for multiple views (e.g., list view, detailed view) and responsive design.
+  Interactive elements such as buttons, dropdowns, and modals for user interaction.
 
-Uses CSV files to simulate a database, ensuring data is saved between sessions.
-Support for data backup and recovery to prevent data loss.
-Reporting and Analytics:
+**Data Persistence:**
+  Uses CSV files to simulate a database, ensuring data is saved between sessions.
+  Support for data backup and recovery to prevent data loss.
 
-Generate reports on library usage, such as most borrowed items, popular genres, and active users.
-View detailed analytics on rental trends, overdue items, and user activity.
-Export reports in various formats (e.g., CSV, PDF) for further analysis.
-Design Patterns Used
+**Reporting and Analytics:**
+  Generate reports on library usage, such as most borrowed items, popular genres, and active users.
+  View detailed analytics on rental trends, overdue items, and user activity.
+  Export reports in various formats (e.g., CSV, PDF) for further analysis.
+
+**Design Patterns Used**
+
 Singleton: Ensures only one instance of the main library system is created and used throughout the application.
 Observer: Implements event-driven updates between user actions and system responses.
 Factory: Simplifies the creation of different types of library items and user roles.
