@@ -60,20 +60,20 @@ This project is a Java-based Library Management System, designed to help librari
 
 **Installation**
 Clone the Repository:
-git clone https://github.com/yourusername/library-management-system.git
+``` git clone https://github.com/Kannapiran-SiddarthKanna/library-management-system.git ```
 
 Navigate to the Project Directory:
-cd library-management-system
+``` cd library-management-system ```
 
 Compile the Project:
 -  Use your IDE to open the project and build it, or
 -  Use the command line to compile the Java files:
-javac -d bin src/*.java
+``` javac -d bin src/*.java ```
 
 **Running the Application**
 
 1. **Run the Main Application:**
-java -cp bin Main
+``` java -cp bin Main ```
 Replace Main with the actual main class name in your project.
 
 2. **Explore Features:** Use the graphical interface to explore the features of the library management system.
