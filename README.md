@@ -82,4 +82,4 @@ Replace Main with the actual main class name in your project.
 JUnit Tests: Automated tests are included to ensure the functionality of core components. Run these tests using your IDE’s testing framework or via the command line.
 
 **Video Walkthrough**
-Watch the [video walkthrough](https://youtu.be/KPgj2q0m95E) of the Library Management System to see it in action!
+Watch the [video walkthrough](https://youtu.be/KPgj2q0m95E) of the Library Management System to see it in action!!
