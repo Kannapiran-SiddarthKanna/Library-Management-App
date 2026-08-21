@@ -1,4 +1,4 @@
-# Library-Management-App
+# Library-Management-App 
 
 This project is a Java-based Library Management System, designed to help libraries manage their inventory, track item rentals, and manage user accounts. The system is built using object-oriented principles and incorporates multiple design patterns to ensure modularity, scalability, and ease of maintenance.
 
